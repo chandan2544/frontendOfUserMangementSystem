@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
@@ -23,6 +24,7 @@ export default function Home() {
 
   return (
     <div className="container">
+      <div className="row"></div>
       <div className="py-4">
         <table className="table border shadow">
           <thead>
